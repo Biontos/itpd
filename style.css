@@ -1,0 +1,19 @@
+body > p {
+    width: 20em;
+    margin: 3em 2em;
+    padding: 2em;
+    border: 3px solid red;
+}
+body > p:first-child {
+    border-radius: 15%;
+    box-shadow: -3px -3px 5px blue;
+}
+body > p:nth-child(2) {
+    border-radius: 5% 10% 15% 20%;
+    box-shadow: 0 0 15px rgba(0, 0, 255, .6);
+}
+body > p:last-child{
+    border-width: 10px;
+    border-image: url(img/border/png) 10 stretch;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .55);
+}
